@@ -40,7 +40,7 @@ while(True):
             cv2.putText(img, 'Unauthorised', (x,y+h+15),font, .55,(54,65,255),1)
             CT = datetime.datetime.now()
             cv2.imwrite("Unauthorised/"+str(CT.strftime("%Y-%m-%d-%H-%M-%S"))+".jpg",gray[y:y+h,x:x+w]) #add picture of faces in Folder Unauthorised
-            cv2.imwrite("UnPicture/"+str(CT.strftime("%Y-%m-%d-%H-%M-%S"))+".jpg",img2) # add full size image in folder UnPicture
+            cv2.imwrite("RecordPicture/"+str(CT.strftime("%Y-%m-%d-%H-%M-%S"))+".jpg",img2) # add full size image in folder UnPicture
     cv2.imshow('Face',img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
