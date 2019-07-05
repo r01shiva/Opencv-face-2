@@ -24,10 +24,10 @@ pip install sqlite3
 
 	it will detect you.
   
-  Extra Features 
+  Extra Features :
   
     # It will dectect unauthorised person and add its faces in Unauthorised folder you can check in that 
-    # it will add full picture when it dectect some unauthorised person 
+    # it will add full picture when it dectect some unauthorised person in RecordPicture you can check in that
     # so you can add or name them later or to add in your database
     
 
@@ -35,6 +35,12 @@ pip install sqlite3
 
 
 AddFaceOfUnauthMultiImage.py 
+
+	# it can read images from RecordPicture and show to you
+	and add face of unauthorised person only 
+	# it a program to read picture and detect its face authorised or not and add it's face in unathorised.
+	#you can add your own picture to use that feature in that folder 
+
 
 
 
