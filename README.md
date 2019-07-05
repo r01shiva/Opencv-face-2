@@ -36,12 +36,23 @@ pip install sqlite3
 
 AddFaceOfUnauthMultiImage.py 
 
-	# it can read images from RecordPicture and show to you
+	# it can read all images from RecordPicture and show to you
 	and add face of unauthorised person only 
 	# it a program to read picture and detect its face authorised or not and add it's face in unathorised.
 	#you can add your own picture to use that feature in that folder 
 
 
+AddUnauthorizedAddNamesSinglePicture.py
 
+	# it can read single image from SinglePicture folder and show to you
+	# you can add name and id of unauthorised person in cmd after click 'q'
+	# it will show you corresponding no. and you can give name and id.
+	
+MainLengthy.py
 
+	it contain all fetures of 
+	AddFaceOfUnauthMultiImage.py 
+	AddUnauthorizedAddNamesSinglePicture.py
+	simultaneusly.
+	it is buggy i am still working on it.
 
